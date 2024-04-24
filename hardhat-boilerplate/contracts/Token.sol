@@ -51,12 +51,12 @@ contract Token {
 
         // We can print messages and values using console.log, a feature of
         // Hardhat Network:
-        console.log(
+        /* console.log(
             "Transferring from %s to %s %s tokens",
             msg.sender,
             to,
             amount
-        );
+        ); */
 
         // Transfer the amount.
         balances[msg.sender] -= amount;
